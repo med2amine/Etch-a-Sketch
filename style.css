@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    flex-wrap: wrap;
+    background-color: aqua;
+    padding: 0;
+    border-radius:10px ;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.square{
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+
+.color-picker{
+    margin: 20px;
+    padding: 10px;
+    background-color: gainsboro;
+    border-radius: 8px;
+}
+
+#reset,#num{
+    margin: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #999;
+    background-color: white;
+}
+
+#reset:hover, #num:hover{
+    background-color: #f0f0f0;
+}
+
+h1{
+    color: #333;
+}
